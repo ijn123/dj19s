@@ -17,8 +17,6 @@ Including another URLconf
 from django.conf.urls import url
 
 from . import views
-
-from . import views
 # we can add namespacing
 app_name = 'polls'
 urlpatterns = [
